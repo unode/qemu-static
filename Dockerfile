@@ -13,6 +13,10 @@ RUN apk add\
  libc-dev\
  pkgconf\
  linux-headers\
+ attr-dev attr\
+ libcap-ng-dev libcap-ng\
+ pixman-dev pixman-static\
+ libvirt-dev libvirt-static\
  glib-dev glib-static\
  zlib-dev zlib-static\
  flex\
