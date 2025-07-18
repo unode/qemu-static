@@ -9,16 +9,18 @@ RUN apk add\
  samurai\
  perl\
  python3\
+ py3-tomli\
  gcc\
  libc-dev\
  pkgconf\
  linux-headers\
  attr-dev attr\
- libcap-ng-dev libcap-ng\
+ libcap-ng-dev libcap-ng-static\
  pixman-dev pixman-static\
  libvirt-dev libvirt-static\
  glib-dev glib-static\
  zlib-dev zlib-static\
+ bzip2-dev bzip2-static\
  flex\
  bison
 
