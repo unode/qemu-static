@@ -9,6 +9,7 @@ RUN "/work/src/${QEMU_SRC_BASENAME}/configure" \
     --prefix="/work/dst/${QEMU_ARTIFACT_BASENAME}" \
     --disable-debug-info \
     --enable-system \
+    --enable-slirp \
     --enable-virtfs \
     --disable-werror \
     --enable-linux-user \
